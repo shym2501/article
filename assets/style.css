@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100vw;
+  height: 60px;
+  background-color: #006eb6;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.brand {
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+ul {
+  position: absolute;
+  margin-right: 30px;
+  right: 0;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+}
+
+ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+ul li a:hover {
+  color: #fff701;
+  font-size: 20px;
+}
+
+@media screen and (max-width :768px) {
+  ul li{
+    display: none;
+  }
+}
+
+/*
+320px
+480px
+600px
+768px
+900px
+1024px
+1200px
+*/
